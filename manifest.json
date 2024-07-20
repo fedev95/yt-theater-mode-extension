@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Extended Theater Mode for YouTube",
+  "version": "1.0",
+  "description": "",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "css": [
+        "styles.css"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
