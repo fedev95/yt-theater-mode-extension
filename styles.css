@@ -1,7 +1,9 @@
 ytd-watch-flexy[full-bleed-player] #full-bleed-container {
   max-height: calc(100vh - 56px) !important;
+  height: 100% !important;
 }
 
 ytd-watch-flexy[fullscreen] #full-bleed-container {
   max-height: 100vh !important;
+  height: 100% !important;
 }
